@@ -69,3 +69,18 @@ root.bind("<Return>", lambda event: send_message())
 
 # Run application
 root.mainloop()
+
+
+Steps:
+
+1. Install Tkinter:
+sudo dnf install python3-tkinter
+
+
+2. Install NLTK:
+pip install nltk
+
+
+3. Save your code as practical8.py.
+4. Run:
+python3 practical8.py
