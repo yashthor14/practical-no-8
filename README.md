@@ -71,16 +71,21 @@ root.bind("<Return>", lambda event: send_message())
 root.mainloop()
 
 
-Steps:
-
-1. Install Tkinter:
+1. Install Tkinter
 sudo dnf install python3-tkinter
 
 
-2. Install NLTK:
-pip install nltk
+Wait until installation finishes.
+
+2. Install NLTK
+python3 -m pip install --user nltk
 
 
-3. Save your code as practical8.py.
-4. Run:
+Wait until installation finishes.
+
+3. Go to Downloads
+cd ~/Downloads
+
+
+4. Run your chatbot
 python3 practical8.py
