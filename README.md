@@ -73,6 +73,8 @@ root.mainloop()
 
 1. Install Tkinter
 sudo dnf install python3-tkinter
+while using jupyter 
+!pip install nltk
 
 
 Wait until installation finishes.
